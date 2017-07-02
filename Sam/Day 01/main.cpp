@@ -112,7 +112,7 @@ enum {
 };
 
 // Mersenne twister implementation
-int* MT = new int[312];
+int* MT = new int[N];
 unsigned int index = N + 1;
 
 long long lowest_bits(long long x) {
